@@ -1,0 +1,10 @@
+data_dir: data/raw/ieee-fraud-detection
+target: isFraud
+time_col: TransactionDT
+id_col: TransactionID
+time_split_quantile: 0.80
+drop_high_missing_threshold: 0.90
+
+model:
+  type: logistic_regression
+  max_iter: 200
