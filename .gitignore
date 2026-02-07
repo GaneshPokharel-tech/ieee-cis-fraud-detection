@@ -219,3 +219,7 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 reports/*.txt
+
+# Allow report CSV artifacts
+!reports/*.csv
+!reports/**/*.csv
