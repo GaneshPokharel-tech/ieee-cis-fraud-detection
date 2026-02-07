@@ -48,3 +48,12 @@ pip install -r requirements.txt
 source .venv/bin/activate
 python -m src.train_lgbm --config configs/baseline.yaml
 
+### 2) Evaluate (PR/ROC/Confusion + feature importance)
+```bash
+source .venv/bin/activate
+python -m src.evaluate --config configs/baseline.yaml
+
+### 3) Explain (SHAP)
+```bash
+source .venv/bin/activate
+python -m src.explain --config configs/baseline.yaml
