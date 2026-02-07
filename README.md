@@ -40,20 +40,20 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-
 ## How to Run (reproducible)
 
-### 1) Train baseline (LightGBM)
+> Run these commands from the repo root (the folder that contains `README.md`, `src/`, `configs/`).
+
 ```bash
+# 0) Activate environment
 source .venv/bin/activate
+
+# 1) Train baseline (LightGBM)
 python -m src.train_lgbm --config configs/baseline.yaml
 
-### 2) Evaluate (PR/ROC/Confusion + feature importance)
-```bash
-source .venv/bin/activate
+# 2) Evaluate (PR/ROC curves, confusion matrix, feature importance)
 python -m src.evaluate --config configs/baseline.yaml
 
-### 3) Explain (SHAP)
-```bash
-source .venv/bin/activate
+# 3) Explain (SHAP summary + top features CSV)
 python -m src.explain --config configs/baseline.yaml
+
