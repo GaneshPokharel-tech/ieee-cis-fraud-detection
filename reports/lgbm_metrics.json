@@ -1,0 +1,16 @@
+{
+  "pr_auc": 0.5426816105757108,
+  "roc_auc": 0.905244165413294,
+  "time_split_quantile": 0.8,
+  "time_split_cut": 12192853.600000001,
+  "dropped_high_missing_cols": 12,
+  "train_shape": [
+    472432,
+    419
+  ],
+  "val_shape": [
+    118108,
+    419
+  ],
+  "scale_pos_weight": 27.46147358274595
+}
