@@ -35,15 +35,16 @@ Workflow: EDA -> LightGBM baseline -> evaluation -> SHAP explainability.
 - reports/   : metrics + figures
 
 ## Setup
+
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-```md
-## How to Run (reproducible)
+**How to Run (reproducible)**
 
-```bash
+
 source .venv/bin/activate
 
 # 1) Train baseline (LightGBM)
