@@ -1,3 +1,5 @@
+![CI](https://github.com/GaneshPokharel-tech/ieee-cis-fraud-detection/actions/workflows/ci.yml/badge.svg)
+
 # IEEE-CIS Fraud Detection (ML + Explainability)
 
 This repo is a reproducible ML project using the Kaggle IEEE-CIS Fraud Detection dataset.
