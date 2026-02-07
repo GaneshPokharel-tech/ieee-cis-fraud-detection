@@ -1,0 +1,19 @@
+{
+  "pr_auc": 0.5426816105757108,
+  "roc_auc": 0.905244165413294,
+  "best_f1_threshold": 0.7293177618163217,
+  "confusion_matrix": [
+    [
+      112617,
+      1427
+    ],
+    [
+      2106,
+      1958
+    ]
+  ],
+  "time_split_quantile": 0.8,
+  "time_split_cut": 12192853.600000001,
+  "dropped_high_missing_cols": 12,
+  "scale_pos_weight": 27.46147358274595
+}
